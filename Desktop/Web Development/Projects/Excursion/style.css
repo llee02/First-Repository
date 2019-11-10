@@ -1,34 +1,40 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: normal;
 }
 
 h1 {
-   font-size: 100px;
-   font-weight: bold;
-   color: khaki;
-   text-align: center;
-   background-image: url(pattern.jpeg);
-}
-
-h2 {
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
-}
-
-.brushes {
-    background-color: mediumspringgreen;
+    font-size: 50px;
+    font-weight: normal;
 }
 
 a {
-    font-weight: bold;
-    color: blue;
+    color: aquamarine;
 }
 
-.frames {
-    background-color: lightcoral
+video {
+    position: relative;
+    top: 2rem;
 }
 
-.paint {
-    background-color: skyblue
+h2 {
+    font-weight: 300;
+    font-size: 2.625rem;
+    position: relative;
+    top: 2rem;
+}
+
+p {
+    font-size: 1.3125rem;
+    color: gray;
+    position: relative;
+    top: 1rem;
+}
+
+footer {
+    text-align: right;
 }
